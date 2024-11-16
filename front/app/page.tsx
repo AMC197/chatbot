@@ -50,7 +50,7 @@ export default function Home() {
                 <>
                   {/* Avatar del bot a la izquierda del mensaje */}
                   <img
-                    src="https://media.tenor.com/U4xFnwz-TtEAAAAj/giffany-gravity-falls.gif"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8kB-16UaFAy80Mu0WvKMyw03z0xQ6S7AgFg&s"
                     alt="Avatar del bot"
                     className="w-8 h-8 rounded-full mr-2"
                   />
@@ -72,7 +72,11 @@ export default function Home() {
                   >
                     {message.text}
                   </div>
-                  <Avatar showFallback src="https://images.unsplash.com/broken" className="ml-2" />
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRohhSyFxWWyChHGD6TYcLjpoiN5ayWnwznuA&s"
+                    alt="Avatar del bot"
+                    className="w-8 h-8 rounded-full mr-2 ml-2"
+                  />
                 </>
               )}
             </div>
@@ -100,7 +104,7 @@ export default function Home() {
  
       <div className="mt-8">
         <Snippet hideCopyButton hideSymbol variant="bordered">
-          <span>Nancy Gomez | Yuly Molano | Carlos Diaz</span>
+          <span>Angy Liliana | Rafael Eduardo | Antonio</span>
         </Snippet>
       </div>
     </section>
