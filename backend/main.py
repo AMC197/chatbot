@@ -5,7 +5,7 @@ from endpoints import router as api_router
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",]
+    "http://localhost:3000","https://cbot-ui-ten.vercel.app"]
 # Configuración de CORS para permitir el frontend
 app.add_middleware(
     CORSMiddleware,
